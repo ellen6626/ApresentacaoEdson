@@ -12,7 +12,7 @@ namespace prjDoctorHelpDev
         static public SqlConnection AbreBanco()
         {
             SqlConnection conexao = new SqlConnection();
-            conexao.ConnectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=C:\\Users\\FernandoAbreuPereira\\Desktop\\prjDoctorHelpDev\\prjDoctorHelpDev\\BancoDH.mdf;Integrated Security=True;Connect Timeout=30";
+            conexao.ConnectionString = "Digite sua string aqui";
             conexao.Open();
 
             return conexao;
