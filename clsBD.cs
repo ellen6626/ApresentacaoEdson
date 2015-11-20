@@ -19,6 +19,7 @@ namespace prjDoctorHelpDev
             return conexao;
         }
 
+	// Método que executa um comando SQL no banco
         static public void ExecutarSQL(string SQL)
         {
             SqlCommand comando = new SqlCommand();
@@ -28,6 +29,7 @@ namespace prjDoctorHelpDev
             comando.ExecuteNonQuery();
         }
 
+	// Método que executa uma consulta por DataReader
         static public SqlDataReader ExecutaConsultaDR(string SQL)
         {
             SqlCommand cmd = new SqlCommand();
@@ -41,6 +43,7 @@ namespace prjDoctorHelpDev
             return dr;
         }
 
+	// Método que executa uma consulta por DataTable
         static public DataTable ExecutaConsultaDT(string SQL)
         {
             SqlCommand cmd = new SqlCommand();
