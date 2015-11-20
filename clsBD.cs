@@ -9,6 +9,7 @@ namespace prjDoctorHelpDev
 {
     class clsBD
     {
+	// Método que abre a conexão com o banco
         static public SqlConnection AbreBanco()
         {
             SqlConnection conexao = new SqlConnection();
